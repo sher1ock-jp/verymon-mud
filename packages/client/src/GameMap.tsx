@@ -35,6 +35,8 @@ export const GameMap = ({
 
   const rows = new Array(width).fill(0).map((_, i) => i);
   const columns = new Array(height).fill(0).map((_, i) => i);
+  console.log("rows", rows);
+  console.log("columns", columns);
 
   const [showEncounter, setShowEncounter] = useState(false);
   // Reset show encounter when we leave encounter
